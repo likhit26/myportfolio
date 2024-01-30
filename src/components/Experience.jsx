@@ -4,7 +4,11 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import JavaScript from "../assets/JavaScript.png";
 import react from "../assets/react.png";
-import nextjs from "../assets/nextjs.png";
+import download from "../assets/images.png";
+import github from "../assets/github.png";
+import c from "../assets/c++.png";
+import ex from "../assets/express.png";
+
 
 import node from "../assets/node.png";
 
@@ -44,9 +48,27 @@ const Experience = () => {
       },
       {
         id: 6,
-        src: nextjs,
-        title: 'Next JS',
+        src: download,
+        title: 'MongoDB',
         style: 'shadow-green-500'
+      },
+      {
+        id: 7,
+        src: ex,
+        title: 'Express Js',
+        style: 'shadow-green-600'
+      },
+      {
+        id: 8,
+        src: c,
+        title: 'C++',
+        style: 'shadow-yellow-400'
+      },
+      {
+        id: 9,
+        src: github,
+        title: 'github',
+        style: 'shadow-orange-500'
       }
      ]
 
